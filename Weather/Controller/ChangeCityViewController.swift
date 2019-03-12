@@ -13,11 +13,8 @@ class ChangeCityViewController: UIViewController {
     @IBOutlet weak var changeCityTextField: UITextField!
     
     
-    
     @IBAction func changeCityButtonPressed(_ sender: Any) {
     }
-    
-    
     
     
     @IBAction func backButtonPressed(_ sender: Any) {
