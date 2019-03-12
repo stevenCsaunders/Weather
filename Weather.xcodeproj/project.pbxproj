@@ -13,7 +13,6 @@
 		AA7967822237DA2600E192E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7967812237DA2600E192E1 /* Assets.xcassets */; };
 		AA7967912237DA6900E192E1 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7967902237DA6900E192E1 /* WeatherDataModel.swift */; };
 		AA7967962237DADC00E192E1 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7967952237DADC00E192E1 /* ChangeCityViewController.swift */; };
-		AA7967982237E0E100E192E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7967972237E0E100E192E1 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		AA7967862237DA2600E192E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7967902237DA6900E192E1 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		AA7967952237DADC00E192E1 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
-		AA7967972237E0E100E192E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +40,6 @@
 		AA79676E2237DA2500E192E1 = {
 			isa = PBXGroup;
 			children = (
-				AA7967972237E0E100E192E1 /* Default-568h@2x.png */,
 				AA7967792237DA2500E192E1 /* Weather */,
 				AA7967812237DA2600E192E1 /* Assets.xcassets */,
 				AA7967782237DA2500E192E1 /* Products */,
@@ -160,7 +157,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7967982237E0E100E192E1 /* Default-568h@2x.png in Resources */,
 				AA7967822237DA2600E192E1 /* Assets.xcassets in Resources */,
 				AA7967802237DA2500E192E1 /* Main.storyboard in Resources */,
 			);
