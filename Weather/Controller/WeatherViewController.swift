@@ -40,14 +40,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
 
     }
     
-    
-
-    
-    
-
-
-
-
 
 //MARK: – Networking
 /*************************************************/
@@ -73,7 +65,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
 
 
 
-
 //MARK: – JSON Parsing
 /*************************************************/
 
@@ -95,6 +86,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
 
+    
 //MARK: – UI Update
 /*************************************************/
 
@@ -123,7 +115,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
             
             getWeatherData(url : WEATHER_URL, parameters : params)
             
-            print("\(latitude), \(longitude)")
+            print(getWeatherData(url : WEATHER_URL, parameters : params))
         }
         
     }

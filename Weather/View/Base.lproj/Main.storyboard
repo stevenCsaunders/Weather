@@ -142,8 +142,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColdBG" translatesAutoresizingMaskIntoConstraints="NO" id="Vje-CS-IZr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColdBG" translatesAutoresizingMaskIntoConstraints="NO" id="KRm-kT-WD3">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMa-RP-1F0">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="627.33333333333337"/>
@@ -190,19 +191,17 @@
                         <constraints>
                             <constraint firstItem="9Zu-zk-afj" firstAttribute="leading" secondItem="GfP-zn-8R7" secondAttribute="leading" constant="14" id="DZ5-bQ-FFe"/>
                             <constraint firstItem="9Zu-zk-afj" firstAttribute="top" secondItem="GfP-zn-8R7" secondAttribute="top" constant="12" id="E4Z-RH-fxt"/>
-                            <constraint firstItem="Vje-CS-IZr" firstAttribute="bottom" secondItem="a0v-kZ-lDh" secondAttribute="bottom" id="GPX-RE-e9D"/>
-                            <constraint firstItem="Vje-CS-IZr" firstAttribute="trailing" secondItem="a0v-kZ-lDh" secondAttribute="trailing" id="KZe-cK-UdH"/>
                             <constraint firstAttribute="trailing" secondItem="hMa-RP-1F0" secondAttribute="trailing" id="MZi-b2-s80"/>
-                            <constraint firstItem="Vje-CS-IZr" firstAttribute="top" secondItem="a0v-kZ-lDh" secondAttribute="top" id="P85-Pa-Ir6"/>
                             <constraint firstItem="hMa-RP-1F0" firstAttribute="leading" secondItem="a0v-kZ-lDh" secondAttribute="leading" id="a9i-Oh-lto"/>
-                            <constraint firstItem="Vje-CS-IZr" firstAttribute="leading" secondItem="a0v-kZ-lDh" secondAttribute="leading" id="ado-eD-hYp"/>
                             <constraint firstItem="hMa-RP-1F0" firstAttribute="top" secondItem="a0v-kZ-lDh" secondAttribute="top" id="auB-FC-tZq"/>
                             <constraint firstItem="hMa-RP-1F0" firstAttribute="height" secondItem="a0v-kZ-lDh" secondAttribute="height" multiplier="0.7" id="oPj-AQ-SKA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GfP-zn-8R7"/>
                     </view>
                     <connections>
+                        <outlet property="WeatherBackground2" destination="KRm-kT-WD3" id="ZOe-TG-XO1"/>
                         <outlet property="changeCityTextField" destination="Clq-UG-zcM" id="5Lx-Bg-shf"/>
+                        <outlet property="weatherBackground" destination="KRm-kT-WD3" id="nJQ-Mj-DM8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PSg-IW-B8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
